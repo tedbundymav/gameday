@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameDay || Catering</title>
+
+  <link rel="stylesheet" href="../css/final.min.css">
+  <link rel="stylesheet" href="../css/custom.css">
+	<script src="https://kit.fontawesome.com/6b8e752b08.js" crossorigin="anonymous"></script>
+</head>
+<body class="padding-top-5" style="background-image: url(../public/img/bg.jpg); background-repeat: repeat-y; background-size: contain;">
+  
+  <div class="w-container-flex">
+    <div class="w-row">
+      <div class="w-col-md4">
+        <ul class="w-block-list t-bg-black">
+          <li><a class="w-btn no-brd s-txt-white s" href="../index.html">HOME</a></li>
+          <li><a class="w-btn no-brd disabled s-txt-white s" href="#">LOCATIONS</a></li>
+          <ul class="w-block-list">
+            <li><a href="./location.html" class="w-btn no-brd s-txt-white s">
+              &nbsp; &nbsp; &nbsp; <span>+</span> San Jose
+            </a></li>
+          </ul>
+          <li><a href="#" class="w-btn no-brd s-txt-red s">CATERING</a></li>
+          <li><a href="./contact.html" class="w-btn no-brd s-txt-white s">CONTACT</a></li>
+          <li><a href="./about.html" class="w-btn no-brd w-txt-bold s-txt-white s">ABOUT</a></li>
+        </ul>
+      </div>
+      <div class="w-col-md4">
+        <div style="width: 50%; margin: auto;">
+					<img style="width: 100%; height: auto;" src="../public/img/longo.png" alt="logo" class="w-img">
+				</div>
+      </div>
+      <div class="w-col-md4 w-txt-center s-txt-white">
+        <ul class="w-hor-li w-txt-xl">
+          <li class="no-border"><i class="fab fa-instagram padding-1"></i></li>
+					<li><i class="fab fa-facebook-f padding-1"></i></li>
+					<li><i class="fab fa-yelp padding-1"></i></li>
+          <li><i class="fab fa-twitter padding-1"></i></li>
+      </ul>
+      </div>
+    </div>
+    <div class="w-row">
+      <div class="w-container">
+        <div class="w-row">
+          <div class="w-col1"></div>
+          <div class="w-col10">
+            <div class="content-div s-bg-white padding-5">
+              <h3 class="s-txt-black w-txt-center">BOOK US FOR YOUR CELEBRATION OR CATERING EVENT</h3>
+              <h4>Party size<span class="s-txt-red">*</span></h4>
+              <small>Number of people that will be served</small>
+              <form role="form" action="" class="w-form inline">
+                <div class="form-group">
+                  <select name="partySize">
+                    <option value="10">10</option>
+                    <option value="20">10 - 20</option>
+                    <option value="30">20 -30</option>
+                    <option value="40">30 - 40</option>
+                    <option value="50">40 - 50</option>
+                    <option value="60">50 - 60</option>
+                    <option value="70">60 - 70</option>
+                    <option value="80">70 - 80</option>
+                    <option value="90">80 - 90</option>
+                    <option value="100">90 - 100</option>
+                    <option value="100+">100 +</option>
+                </select>
+                </div>
+              </form>
+              <h4>Catering Type<span class="s-txt-red">*</span></h4>
+              <form role="form" action="" class="w-form inline">
+                <div class="form-group">
+                  <input type="radio" name="cateringType" value="Delivered"> Delivered <br />
+                  <input type="radio" name="cateringType" value="onsite"> On Site Cooking
+                </div>
+              </form>
+              <h4>Name<span class="s-txt-red">*</span></h4>
+              <form role="form" action="" class="w-form inline">
+                <div class="form-group w-col-md6 w-col12">
+                  <input type="text" name="FirstName" id="FirstName" placeholder="First Name">
+                </div>
+                <div class="form-group w-col-md6 w-col12">
+                  <input type="text" name="LastName" id="LastName" placeholder="Last Name">
+                </div>
+              </form>
+              <h4>E-mail Address<span class="s-txt-red">*</span></h4>
+              <form role="form" action="" class="w-form">
+                <div class="form-group">
+                  <input type="email" name="Email" id="Email" placeholder="Your E-mail Address">
+                </div>
+              </form>
+              <h4>Phone Number<span class="s-txt-red">*</span></h4>
+              <form role="form" action="" class="w-form">
+                <div class="form-group w-col-md6 w-col12">
+                  <input type="text" name="Phone" id="Phone" placeholder="Example: 555-555-5555">
+                </div>
+              </form>
+              <h4>Date of Event<span class="s-txt-red">*</span></h4>
+              <form role="form" action="" class="w-form inline">
+                <div class="form-group">
+                  <select name="Month">
+                    <option value="0">January</option>
+                    <option value="1">February</option>
+                    <option value="2">March</option>
+                    <option value="3">April</option>
+                    <option value="4">May</option>
+                    <option value="5">June</option>
+                    <option value="6">July</option>
+                    <option value="7">August</option>
+                    <option value="8">September</option>
+                    <option value="9">October</option>
+                    <option value="10">November</option>
+                    <option value="11">December</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input type="number" name="Day" id="Day" value="1" max="31" min="1">
+                </div>
+                <div class="form-group ">
+                  <input type="number" style="width: 50px;" name="Year" id="Year" value="2020" min="2020">
+                </div>
+              </form>
+              <h4>Time of Event<span class="s-txt-red">*</span></h4>
+              <form role="form" action="" class="w-form inline">
+                <div class="form-group">
+                  <input type="number" name="Hour" id="Hour" value="1" max="12" min="01">
+                </div>
+                <div class="form-group">
+                  <input type="number" name="Minutes" id="Minutes" value="00" min="00" max="59">
+                </div>
+                <div class="form-group">
+                  <select name="MornOrAfter">
+                    <option value="am">AM</option>
+                    <option value="pm">PM</option>
+                  </select>
+                </div>
+              </form>
+              <h4>Company</h4>
+              <form role="form" action="" class="w-form">
+                <div class="form-group">
+                  <input type="text" name="Company" id="Company" placeholder="Your company name">
+                </div>
+              </form>
+              <h4>Address 1<span class="s-txt-red">*</span></h4>
+              <form role="form" action="" class="w-form">
+                <div class="form-group">
+                  <input type="text" name="Address1" id="Address1" placeholder="Your first address name">
+                </div>
+              </form>
+              <h4>Address 2<span class="s-txt-red">*</span></h4>
+              <form role="form" action="" class="w-form">
+                <div class="form-group">
+                  <input type="text" name="Address2" id="Address2" placeholder="Your second address name">
+                </div>
+              </form>
+              <h4>City and State or Province<span class="s-txt-red">*</span></h4>
+              <form role="form" action="" class="w-form inline">
+                <div class="form-group w-col6">
+                  <input type="text" name="City" id="City" placeholder="City">
+                </div>
+                <div class="form-group w-col6">
+                  <input type="text" name="Province" id="Province" placeholder="State/Province">
+                </div>
+              </form>
+              <h4>Zip or Postal Code</h4>
+              <form role="form" action="" class="w-form">
+                <div class="form-group w-col-md6 w-col12">
+                  <input type="text" name="Zip" id="Zip" placeholder="Zip or Postal Code">
+                </div>
+              </form>
+              <h4>Menu Options<span class="s-txt-red">*</span></h4>
+              <p>What type of food are you interested in having at your party</p>
+              <form role="form" action="" class="w-form">
+                <div class="form-group w-col6">
+                  <input type="checkbox" name="menu" value="one"> First option <br />
+                  <input type="checkbox" name="menu" value="two"> Second option <br />
+                  <input type="checkbox" name="menu" value="three"> Third option <br />
+                  <input type="checkbox" name="menu" value="four"> Fourth option <br />
+                  <input type="checkbox" name="menu" value="five"> Fifth option <br />
+                  <input type="checkbox" name="menu" value="six"> Sixth option <br />
+                  <input type="checkbox" name="menu" value="seven"> Seventh option <br />
+                  <input type="checkbox" name="menu" value="eight"> Eighth option <br />
+                </div>
+              </form>
+              <h4>Tell us about your event<span class="s-txt-red">*</span></h4>
+              <form role="form" action="" class="w-form">
+                <div class="form-group">
+                  <textarea name="Description" id="Description" cols="30" rows="10" placeholder="Anything else you want us to know"></textarea>
+                </div>
+              </form>
+              <button class="w-btn full xl s-bg-black">
+                Submit <span class="s-txt-white"><i class="far fa-paper-plane"></i></span>
+              </button>
+            </div>
+          </div>
+          <div class="w-col1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/final.min.js"></script>
+</body>
+</html>
