@@ -14,7 +14,7 @@ ul.menu-tabs, ul.menu-tabs li{
   border: none;
 }
 #logo-letterhead{
-  font-family: 'Holtwood One SC';
+  font-family: 'Bevan';
   line-height: 50px;
   letter-spacing: 2px;
   font-size: 50px;
@@ -22,7 +22,7 @@ ul.menu-tabs, ul.menu-tabs li{
   text-shadow: 0 0 5px white,0 0 7px blue;
 }
 #logo-letterhead span{
-  font-family: 'Holtwood One SC';
+  font-family: 'Bevan';
   line-height: 50px;
   letter-spacing: 2px;
   font-size: 70px;
@@ -30,7 +30,7 @@ ul.menu-tabs, ul.menu-tabs li{
   text-shadow: 0 0 5px white,0 0 7px blue;
 }
 #logo-subheading small{
-  font-family: 'Holtwood One SC';
+  font-family: 'Bevan';
   font-weight: 100;
   font-size: 15px;
   text-shadow: 1px 1px 2px blue;
