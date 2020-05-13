@@ -14,23 +14,23 @@ ul.menu-tabs, ul.menu-tabs li{
   border: none;
 }
 #logo-letterhead{
-  font-family: 'Bevan';
+  font-family: 'Holtwood One SC';
   line-height: 50px;
   letter-spacing: 2px;
   font-size: 50px;
   color: red;
-  text-shadow: 1px 1px 2px blue;
+  text-shadow: 0 0 5px white,0 0 7px blue;
 }
 #logo-letterhead span{
-  font-family: 'Bevan';
+  font-family: 'Holtwood One SC';
   line-height: 50px;
   letter-spacing: 2px;
   font-size: 70px;
   color: red;
-  text-shadow: 1px 1px 2px blue;
+  text-shadow: 0 0 5px white,0 0 7px blue;
 }
 #logo-subheading small{
-  font-family: 'Bevan';
+  font-family: 'Holtwood One SC';
   font-weight: 100;
   font-size: 15px;
   text-shadow: 1px 1px 2px blue;
