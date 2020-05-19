@@ -29,6 +29,14 @@ ul.menu-tabs, ul.menu-tabs li{
   color: red;
   text-shadow: 0 0 5px white,0 0 7px blue;
 }
+@media (max-width: 500px) {
+  #logo-letterhead{
+    font-size: 20px;
+  }
+  #logo-letterhead span{
+    font-size: 30px;
+  }
+}
 #logo-subheading small{
   font-family: 'Bevan';
   font-weight: 100;
