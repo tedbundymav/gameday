@@ -1,5 +1,5 @@
 const Dboxes = {
-  doorDash: "https://www.doordash.com/business/436891/?utm_source=partner-link&utm_medium=website&utm_campaign=436891"
+  doorDash: "https://www.doordash.com/restaurants-near-me/"
 }
 const dBoxs = document.querySelectorAll('.delivery-box');
 
